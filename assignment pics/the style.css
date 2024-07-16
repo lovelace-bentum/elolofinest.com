@@ -1,0 +1,157 @@
+body {background-image:url("welcome1.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100vh;
+   
+   }
+   * {
+      font-family: Trebuchet MS;
+      letter-spacing:4px;
+  }	 
+
+  .container{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-evenly;
+      align-items:center;
+      text-align:center;
+      min-height: 100vh;
+
+  }
+
+  .btn-1,.btn-2,.btn-3,.btn-4,.btn-5{
+      height:50px;
+      border:none;
+      color:white;
+      background:transparent;
+      border-radius:2px;
+      box-shadow: inset 0 0 0 0 hsla(107, 90%, 19%, 0.678);
+      transition: ease-out 0.3s;
+      font-size: 25px;
+      outline: none;
+  }
+  
+    .btn-1{ position: absolute;
+      left: 160px;
+      top: 20px;
+      width: 220px;
+    }
+      .btn-1:hover{
+          box-shadow: inset 220px 0 0 0 hsla(107, 90%, 19%, 0.678);
+          cursor: pointer;
+          color:#000;
+      }
+
+  
+      .btn-2{
+          position: absolute;
+          left: 420px;
+          top: 20px;
+          width: 170px;
+      }
+          .btn-2:hover{
+              box-shadow: inset 170px 0 0 0 hsla(107, 90%, 19%, 0.678);
+              cursor: pointer;
+              color:rgba(0, 0, 0, 0.76);
+          }
+
+          .btn-3{
+             
+              position: absolute;
+              left: 650px;
+              top: 20px;
+          }
+              .btn-3:hover{
+                  box-shadow: inset 3000px  0 0 0 hsla(107, 90%, 19%, 0.678);
+                  cursor: pointer;
+                  color:rgb(0, 0, 0);
+              }
+  
+              .btn-4{
+                  position: absolute; 
+                  left: 790px;
+                  top: 20px;
+              }
+                  .btn-4:hover{
+                      box-shadow: inset 300px 0 0 0 hsla(107, 90%, 19%, 0.678);
+                      cursor: pointer;
+                      color:#000;
+                  }
+      
+  .btn-5{
+          
+          position: absolute;
+          left: 1200px;
+          top: 20px;
+      }
+                      .btn-5:hover{
+                          box-shadow: inset 300px 0 0 0 hsla(27, 100%, 42%, 0.932);
+                          cursor: pointer;
+                          color:#000;
+                      }
+
+                     
+/* END OF FIRST SET AT THE TOP*/      
+      
+.btn-6{
+width:120px;
+height:50px;
+border:none;
+color:white;
+background:transparent;
+border-radius:2px;
+box-shadow: inset 0 0 0 0 hsla(160, 100%, 42%, 0.842);
+transition: ease-out 0.3s;
+font-size: 20px;
+outline: none;
+position: absolute;
+left: 600px;
+top: 470px;
+}
+          .btn-6:hover{
+              box-shadow: inset 120px 0 0 0 hsla(160, 100%, 42%, 0.842);
+              cursor: pointer;
+              color:#000;
+                      }
+
+          .btn-6::before{
+                          transition: 0.5s all ease;
+                          position: absolute;
+                          top:0;
+                          left:50%;
+                          right:50%;
+                          bottom:0%;
+                          opacity: 0;
+                          content:"";
+                          background-color:hsla(160, 100%, 42%, 0.842); 
+                      }               
+          
+                      .btn-6:hover:before {transition: o.5s all ease;
+                                           left: 0;
+                                           right: 0;
+                                           opacity: 1;
+                                           z-index:-1;
+                                          }
+
+      
+                                         
+                          
+                                      
+                          
+
+h1{text-align:center;
+  color:white;
+  position: absolute;
+  left: 470px;
+  top: 400px;
+  font-family:Trebuchet MS;
+ }
+img{width:470px; 
+   height:270px;
+   position: absolute;
+        left:440px;
+        top:130px;
+        border-style: groove;
+        border-color: chartreuse;
+}
